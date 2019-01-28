@@ -6,7 +6,7 @@ export interface ResizeObserverEntry {
 }
 export type ObserverCallback = (entry: DOMRectReadOnly) => void;
 
-export const useResizeObserver = (ref: RefObject<any>, callback: ObserverCallback) => {
+export const useResizeObserver = (ref: RefObject<HTMLElement>, callback: ObserverCallback) => {
   useEffect(() => {
     const resizeObserver = new (window as any).ResizeObserver((entries: ResizeObserverEntry[]) => {
       callback(entries[0].contentRect);

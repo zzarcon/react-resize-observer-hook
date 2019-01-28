@@ -9,7 +9,7 @@ const repoUrl = 'https://github.com/zzarcon/react-resize-observer-hook';
 export default () => {
   const [dimensions, setDimensions] = useState({width: 200, height: 100})
   const parentElement = useRef(null);
-  
+
   useResizeObserver(parentElement, (entry) => {
     const {width, height} = entry;
 
