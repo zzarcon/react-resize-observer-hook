@@ -1,6 +1,6 @@
 {
   "name": "react-resize-observer-hook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ResizeObserver + React hooks",
   "main": "dist/es5/index.js",
   "repository": "git@github.com:zzarcon/react-resize-observer-hook.git",
