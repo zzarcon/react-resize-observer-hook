@@ -1,4 +1,4 @@
-# react-resize-observer-hook
+# react-resize-observer-hook [![Build Status](https://travis-ci.org/zzarcon/react-resize-observer-hook.svg?branch=master)](https://travis-ci.org/zzarcon/react-resize-observer-hook)
 > ResizeObserver + React hooks
 
 ## Install
