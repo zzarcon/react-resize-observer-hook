@@ -1,6 +1,15 @@
 # react-resize-observer-hook [![Build Status](https://travis-ci.org/zzarcon/react-resize-observer-hook.svg?branch=master)](https://travis-ci.org/zzarcon/react-resize-observer-hook)
 > ResizeObserver + React hooks
 
+<div align="center">
+  <img src="demo.gif" alt="Logo" width="320">
+  <br><br>
+</div>
+
+## Demo
+
+[zzarcon.github.io/react-resize-observer-hook](https://zzarcon.github.io/react-resize-observer-hook)
+
 ## Install
 
 ```
