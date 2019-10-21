@@ -20,7 +20,7 @@ yarn add react-resize-observer-hook
 
 ```js
 import {useState, useRef} from 'react';
-import useResize from 'react-resize-observer-hook';
+import useResizeObserver from 'react-resize-observer-hook';
 
 export default () => {
   const [dimensions, setDimensions] = useState({width: 100, height: 50})
