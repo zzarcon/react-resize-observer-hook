@@ -15,7 +15,7 @@ export const useResizeObserver = (ref: RefObject<HTMLElement>, callback: Observe
     resizeObserver.observe(ref.current);
 
     return () => {
-      resizeObserver.disonnect();
+      resizeObserver.disconnect();
     }
   }, [ref]);
 }
